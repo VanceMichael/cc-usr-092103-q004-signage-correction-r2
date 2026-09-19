@@ -1,0 +1,10 @@
+{
+  "domain": "signage-correction",
+  "version": 1,
+  "facts": [
+    "市民可上传外语标识纠错线索",
+    "高校与翻译组织参与",
+    "线上平台提供规范查询和意见征集"
+  ],
+  "sample_id": "sample-004"
+}
