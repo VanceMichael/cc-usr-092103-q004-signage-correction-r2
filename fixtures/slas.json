@@ -1,0 +1,11 @@
+{
+  "domain": "signage-correction",
+  "kind": "processing-slas",
+  "version": 1,
+  "stages": [
+    { "stage": "terminology_check", "hours": 72 },
+    { "stage": "unit_confirm", "hours": 120 },
+    { "stage": "replacement", "hours": 240 },
+    { "stage": "revisit", "hours": 72 }
+  ]
+}

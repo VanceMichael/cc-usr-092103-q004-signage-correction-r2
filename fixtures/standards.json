@@ -1,0 +1,35 @@
+{
+  "domain": "signage-correction",
+  "kind": "translation-standards",
+  "version": 1,
+  "standards": [
+    {
+      "standard_id": "std-public-signs",
+      "title": "公共服务领域英文译写规范",
+      "versions": [
+        {
+          "version": "2024.1",
+          "effective_from": "2024-01-01",
+          "supersedes": null,
+          "terms": [
+            { "zh": "出口", "en": "Exit" },
+            { "zh": "游客中心", "en": "Visitor Center" },
+            { "zh": "售票处", "en": "Ticket Office" },
+            { "zh": "急诊", "en": "Emergency" }
+          ]
+        },
+        {
+          "version": "2026.1",
+          "effective_from": "2026-03-01",
+          "supersedes": "2024.1",
+          "terms": [
+            { "zh": "出口", "en": "Exit" },
+            { "zh": "游客中心", "en": "Visitor Center" },
+            { "zh": "售票处", "en": "Tickets" },
+            { "zh": "急诊", "en": "Emergency" }
+          ]
+        }
+      ]
+    }
+  ]
+}

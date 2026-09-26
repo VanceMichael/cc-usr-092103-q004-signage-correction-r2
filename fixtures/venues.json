@@ -1,0 +1,30 @@
+{
+  "domain": "signage-correction",
+  "kind": "venue-catalog",
+  "version": 1,
+  "units": [
+    { "unit_id": "unit-metro", "name": "市轨道交通集团" },
+    { "unit_id": "unit-hospital", "name": "市第一医院" },
+    { "unit_id": "unit-park", "name": "滨江公园管理处" }
+  ],
+  "venues": [
+    {
+      "venue_id": "venue-metro-whgc",
+      "name": "地铁文化宫站",
+      "category": "transport",
+      "owner_unit_id": "unit-metro"
+    },
+    {
+      "venue_id": "venue-hospital-01",
+      "name": "市第一医院门诊楼",
+      "category": "medical",
+      "owner_unit_id": "unit-hospital"
+    },
+    {
+      "venue_id": "venue-park-lake",
+      "name": "滨江公园湖区",
+      "category": "tourism",
+      "owner_unit_id": "unit-park"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "domain": "signage-correction",
+  "kind": "personnel",
+  "version": 1,
+  "people": [
+    {
+      "person_id": "coord-01",
+      "name": "王某",
+      "role": "coordinator",
+      "affiliation": "市外事办公室",
+      "domains": [],
+      "max_active_cases": 0
+    },
+    {
+      "person_id": "exp-01",
+      "name": "李某",
+      "role": "expert",
+      "affiliation": "某高校外国语学院",
+      "domains": ["transport", "tourism"],
+      "max_active_cases": 3
+    },
+    {
+      "person_id": "exp-02",
+      "name": "陈某",
+      "role": "expert",
+      "affiliation": "市翻译协会",
+      "domains": ["medical"],
+      "max_active_cases": 2
+    },
+    {
+      "person_id": "vol-01",
+      "name": "赵某",
+      "role": "volunteer",
+      "affiliation": "高校志愿者团队",
+      "domains": ["transport"],
+      "max_active_cases": 2
+    },
+    {
+      "person_id": "vol-02",
+      "name": "孙某",
+      "role": "volunteer",
+      "affiliation": "高校志愿者团队",
+      "domains": ["tourism", "medical"],
+      "max_active_cases": 1
+    }
+  ]
+}
