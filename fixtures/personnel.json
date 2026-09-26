@@ -1,0 +1,40 @@
+{
+  "people": [
+    {
+      "person_id": "P-EXP-01",
+      "display_name": "林译",
+      "role": "expert",
+      "domains": ["交通", "文化"],
+      "languages": ["en"],
+      "capacity": 3,
+      "org": "某高校外国语学院"
+    },
+    {
+      "person_id": "P-EXP-02",
+      "display_name": "关海",
+      "role": "expert",
+      "domains": ["文旅", "医疗"],
+      "languages": ["en", "ja"],
+      "capacity": 2,
+      "org": "市翻译协会"
+    },
+    {
+      "person_id": "P-VOL-01",
+      "display_name": "齐云",
+      "role": "volunteer",
+      "domains": ["交通", "文旅"],
+      "languages": ["en"],
+      "capacity": 2,
+      "org": "外语标识志愿队"
+    },
+    {
+      "person_id": "P-VOL-02",
+      "display_name": "何平",
+      "role": "volunteer",
+      "domains": ["文化"],
+      "languages": ["en"],
+      "capacity": 1,
+      "org": "外语标识志愿队"
+    }
+  ]
+}

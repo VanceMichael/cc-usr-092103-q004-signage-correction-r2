@@ -1,0 +1,30 @@
+{
+  "standard_id": "STD-GGSP-EN",
+  "title": "公共场所外语标识英文译写规范",
+  "versions": [
+    {
+      "version": 1,
+      "effective_from": "2024-01-01",
+      "status": "superseded",
+      "terms": [
+        {"source": "出口", "approved": "Exit"},
+        {"source": "入口", "approved": "Entrance"},
+        {"source": "小心地滑", "approved": "Caution: Slippery Floor"},
+        {"source": "无障碍卫生间", "approved": "Disabled Toilet"},
+        {"source": "售票处", "approved": "Ticket Office"}
+      ]
+    },
+    {
+      "version": 2,
+      "effective_from": "2025-06-01",
+      "status": "current",
+      "terms": [
+        {"source": "出口", "approved": "EXIT"},
+        {"source": "入口", "approved": "ENTRANCE"},
+        {"source": "小心地滑", "approved": "CAUTION: Wet Floor"},
+        {"source": "无障碍卫生间", "approved": "Accessible Toilet"},
+        {"source": "售票处", "approved": "Tickets"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "处理时限",
+  "type": "object",
+  "required": ["stages"],
+  "properties": {
+    "stages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["stage", "days"],
+        "properties": {
+          "stage": {"type": "string", "minLength": 1},
+          "days": {"type": "integer", "minimum": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "priority_overrides": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {"type": "integer", "minimum": 1}
+      }
+    }
+  },
+  "additionalProperties": false
+}

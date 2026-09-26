@@ -1,0 +1,14 @@
+{
+  "stages": [
+    {"stage": "dispatch", "days": 1},
+    {"stage": "terminology_review", "days": 3},
+    {"stage": "unit_confirm", "days": 5},
+    {"stage": "replacement", "days": 15}
+  ],
+  "priority_overrides": {
+    "urgent": {
+      "terminology_review": 1,
+      "replacement": 3
+    }
+  }
+}

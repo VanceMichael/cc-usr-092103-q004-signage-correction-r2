@@ -1,0 +1,31 @@
+{
+  "venues": [
+    {
+      "venue_id": "V-1001",
+      "name": "中央车站",
+      "district": "城东区",
+      "domain": "交通",
+      "owner_unit": "市交通集团",
+      "responsible_unit": "中央车站运营部",
+      "grid": [31.23, 121.473]
+    },
+    {
+      "venue_id": "V-2001",
+      "name": "滨江公园",
+      "district": "滨江区",
+      "domain": "文旅",
+      "owner_unit": "市园林局",
+      "responsible_unit": "滨江公园管理处",
+      "grid": [31.215, 121.49]
+    },
+    {
+      "venue_id": "V-3001",
+      "name": "市图书馆",
+      "district": "城西区",
+      "domain": "文化",
+      "owner_unit": "市文旅局",
+      "responsible_unit": "市图书馆物业中心",
+      "grid": [31.228, 121.44]
+    }
+  ]
+}

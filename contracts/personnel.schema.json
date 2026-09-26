@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "人员能力",
+  "type": "object",
+  "required": ["people"],
+  "properties": {
+    "people": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["person_id", "display_name", "role", "domains", "languages", "capacity", "org"],
+        "properties": {
+          "person_id": {"type": "string", "minLength": 1},
+          "display_name": {"type": "string", "minLength": 1},
+          "role": {"enum": ["expert", "volunteer"]},
+          "domains": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "languages": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "capacity": {"type": "integer", "minimum": 1},
+          "org": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
